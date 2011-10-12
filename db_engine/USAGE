@@ -1,0 +1,11 @@
+Description:
+    This generator will generate the database yaml by selected engine.
+		The Avalible engine are:
+		- mysql
+		- sqlite
+
+Example:
+    rails generate db_engine [sqlite, mysql]
+
+    This will create:
+        config/database.yml
