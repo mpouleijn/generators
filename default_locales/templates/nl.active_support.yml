@@ -1,0 +1,79 @@
+en:
+  date:
+    formats:
+      # Use the strftime parameters for formats.
+      # When no format has been given, it uses default.
+      # You can provide other formats here if you like!
+      default: "%d/%m/%Y"
+      short: "%e %b"
+      long: "%e %B %Y"
+
+    day_names:
+      - zondag
+      - maandag
+      - dinsdag
+      - woensdag
+      - donderdag
+      - vrijdag
+      - zaterdag
+    abbr_day_names:
+      - zon
+      - maa
+      - din
+      - woe
+      - don
+      - vri
+      - zat
+
+
+    # Don't forget the nil at the beginning; there's no such thing as a 0th month
+    month_names:
+      - ~
+      - januari
+      - februari
+      - maart
+      - april
+      - mei
+      - juni
+      - juli
+      - augustus
+      - september
+      - oktober
+      - november
+      - december
+    abbr_month_names:
+      - ~
+      - jan
+      - feb
+      - mar
+      - Apr
+      - mei
+      - jun
+      - jul
+      - aug
+      - sep
+      - okt
+      - nov
+      - dec
+    # Used in date_select and datetime_select.
+    order:
+      - :day
+      - :month
+      - :year
+
+  time:
+    formats:
+      default: "%a %d %b %Y %H:%M:%S %Z"
+      short: "%d %b %H:%M"
+      long: "%d %B %Y %H:%M"
+      time: "%H:%M"
+      only_second: "%S"
+    am: "'s ochtends"
+    pm: "'s middags"
+
+# Used in array.to_sentence.
+  support:
+    array:
+      words_connector: ", "
+      two_words_connector: " en "
+      last_word_connector: ", en "

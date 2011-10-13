@@ -1,0 +1,27 @@
+en:
+  errors:
+    # The default format to use in full error messages.
+    format: "%{attribute} %{message}"
+
+    # The values :model, :attribute and :value are always available for interpolation
+    # The value :count is available when applicable. Can be used for pluralization.
+    messages:
+      inclusion: "is niet in de lijst opgenomen"
+      exclusion: "is niet beschikbaar"
+      invalid: "is ongeldig"
+      confirmation: "komt niet met de bevestiging overeen"
+      accepted: "moet worden geaccepteerd"
+      empty: "moet opgegeven zijn"
+      blank: "moet opgegeven zijn"
+      too_long: "is te lang (maximaal %{count} tekens)"
+      too_short: "is te kort (minimaal %{count} tekens)"
+      wrong_length: "heeft onjuiste lengte (moet %{count} tekens lang zijn)"
+      not_a_number: "is geen getal"
+      not_an_integer: "moet een geheel getal zijn"
+      greater_than: "moet groter zijn dan %{count}"
+      greater_than_or_equal_to: "moet groter dan of gelijk zijn aan %{count}"
+      equal_to: "moet gelijk zijn aan %{count}"
+      less_than: "moet minder zijn dan %{count}"
+      less_than_or_equal_to: "moet minder dan of gelijk zijn aan %{count}"
+      odd: "moet oneven zijn"
+      even: "moet even zijn"
